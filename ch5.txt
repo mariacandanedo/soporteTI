@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Ti - Servicios</title>
+    <link rel="shortcut icon" href="https://icon-icons.com/download-file?file=https%3A%2F%2Fimages.icon-icons.com%2F403%2FPNG%2F512%2Fwifi2_40496.png&id=40496&pack_or_individual=pack" type="image/x-icon">
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+    header{
+        background-color: #1e2a38;
+        color: white;
+        padding: 1em 0;
+        text-align: center;
+    }
+    nav{
+        background-color: #2d3e50;
+        display: flex;
+        justify-content: center;
+    }
+    nav a{
+        color: white;
+        padding: 1em 0;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+    nav a:hover {
+        color: coral;
+        text-decoration: underline;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2em;
+    }
+    .card{
+        background-color: papayawhip;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin: 1em;
+        padding: 1.5em;
+        width: 300px;
+        border-radius: 18px;
+        transition: transform 0.2s;
+    }
+    .card:hover {
+        transform: scale(1.05);
+        background-color: aquamarine;
+    }
+    .card h3{
+        color:cornflowerblue;
+        margin-top: 0;
+    }
+    footer{
+        background-color: #1e2a38;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+        position: absolute;
+        width: 100%;
+        margin-top: 2em;
+        bottom: 0;
+    }
+</style>
+<body>
+    <header>
+        <h1>Servicios de Soporte TI</h1>
+    </header>
+    <nav>
+        <a href="https://www.facebook.com">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <section class="container">
+        <div class="card">
+            <img src="https://pandorafms.com/blog/wp-content/uploads/2018/05/El-perfil-del-analista-de-soporte-tecnico.png" alt="" width="100%" height="150px" style="border-radius: 12px; object-fit: cover;">
+            <h3>Asistencia Remota</h3>
+            <p>Resolvemos problemas de Software, conexión y configuración desde cualquier acceso remoto seguro desde 1985 </p>
+        </div>
+
+        <div class="card">
+            <h3>Mantenimiento Preventivo</h3>
+            <p>Realizamos limpieza, actualizaciones y revisión de equipos</p>
+        </div>
+    </section>
+
+    <footer>
+         2026 Soporte TI &copy; Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
